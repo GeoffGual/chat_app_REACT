@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from "./Components/Contact";
+import ContactList from "./Components/ContactList";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         name="Mathias Goude"
         url="https://i.postimg.cc/htZHs3pS/carapuce.png"
         online={false}/>
+        <ContactList/>
     </div>
   );
 }
